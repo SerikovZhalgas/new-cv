@@ -1,0 +1,86 @@
+.aboutMeBlock {
+    padding: 30px 30px 0 30px;
+}
+
+.title {
+    color: #9E41C6;
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.titleText{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+            45deg,
+            #9E41C6 25%,
+            white 100%
+    );
+}
+
+.aboutMe {
+    margin-bottom: 10px;
+}
+
+.education {
+    margin-bottom: 10px;
+}
+
+.textBLock {
+    color: white;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.textAboutMe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.textEducation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+hr {
+    opacity: 20%;
+}
+
+ul {
+    margin: 0;
+}
+
+@media screen and (max-width: 1270px){
+    .aboutMeBlock {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 30px 30px 0 30px;
+    }
+    .aboutMe {
+        margin-bottom: 10px;
+    }
+    .textBLock{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .textAboutMe {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+}

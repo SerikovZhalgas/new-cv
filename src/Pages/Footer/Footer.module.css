@@ -1,0 +1,38 @@
+.footerBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text .devText{
+    color: #9E41C6;
+}
+
+.name{
+    margin: 0 0 10px 0;
+    font-size: 34px;
+}
+
+.devText{
+    margin: 0;
+    font-size: 16px;
+}
+
+.socialNetContainer{
+    margin: 10px 0 0 0;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
