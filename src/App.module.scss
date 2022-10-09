@@ -1,18 +1,17 @@
 .appWrapper {
-  /*border: 1px white solid;*/
   margin: 0 auto;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 0 120px;
-}
-
-@media screen and (max-width: 1270px){
-  .appWrapper {
+  @media screen and (max-width: 1270px) {
     flex-direction: column;
     gap: 10px;
+    padding: 0;
+    height: 100%;
   }
 }

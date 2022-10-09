@@ -1,20 +1,19 @@
-import style from './AboutMe.module.css'
-import {faBuildingColumns, faPerson, faBuilding} from "@fortawesome/free-solid-svg-icons";
+import style from './AboutMe.module.scss'
+import {faPerson} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import React from "react";
-import {SkillsContainer} from "../../common/component/SkillsContainer/SkillsContainer";
+import {ListYearText} from "../../common/component/ListYearText/ListYearText";
 
-const myCoreSkills = [
-    {title: 'React'},
-    {title: 'TypeScript/JavaScript'},
-    {title: 'Redux/Redux Toolkit'},
-    {title: 'Unit-tests'},
-    {title: 'REST API'},
-    {title: 'Storybook'},
-    {title: 'Git'},
-    {title: 'HTML, CSS'},
+const education = [
+    {year: '2015-2019', text: 'S.Seifullin Kazakh Agro Technical University'},
+    {year: '2022', text: 'It-Incubator'}
 ]
 
+const experience = [
+    {year: '2019-2022', text: 'KazImpex company as Information system engineer'},
+    {year: '2022', text: 'Izipaq company as BPM Developer'},
+    {year: '2022', text: 'Freelance as React Front-End Developer'}
+]
 
 export const AboutMe = () => {
 
@@ -61,68 +60,8 @@ export const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            <div className={style.education}>
-                <h3 className={style.title}>
-                    <FontAwesomeIcon icon={faBuildingColumns} className='fa-lg'/>
-                    <div className={style.titleText}>
-                        Education
-                    </div>
-                </h3>
-                <hr/>
-                <div className={style.textBLock}>
-                    <div className={style.textEducation}>
-                        <p>
-                            <strong>2015-2019</strong>
-                        </p>
-                        <p>
-                            S.Seifullin Kazakh Agro Technical University
-                        </p>
-                    </div>
-                    <div className={style.textEducation}>
-                        <p>
-                            <strong>2022</strong>
-                        </p>
-                        <p>
-                            It-Incubator
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className={style.education}>
-                <h3 className={style.title}>
-                    <FontAwesomeIcon icon={faBuilding} className='fa-lg'/>
-                    <div className={style.titleText}>
-                        Experience
-                    </div>
-                </h3>
-                <hr/>
-                <div className={style.textBLock}>
-                    <div className={style.textEducation}>
-                        <p>
-                            <strong>2019-2022</strong>
-                        </p>
-                        <p>
-                            KazImpex company as Information system engineer
-                        </p>
-                    </div>
-                    <div className={style.textEducation}>
-                        <p>
-                            <strong>2022</strong>
-                        </p>
-                        <p>
-                            Izipaq company as BPM Developer
-                        </p>
-                    </div>
-                    <div className={style.textEducation}>
-                        <p>
-                            <strong>2022</strong>
-                        </p>
-                        <p>
-                            Freelance as React Front-End Developer
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <ListYearText title={'Education'} list={education}/>
+            <ListYearText title={'Experience'} list={experience}/>
         </div>
     );
 }

@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     margin: 10px 0 0 0;
+    width: 400px;
+    height: 300px;
 }
 
 .text{
@@ -36,3 +38,9 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1270px){
+    .footerBlock{
+        width: 300px;
+        height: 200px;
+    }
+}

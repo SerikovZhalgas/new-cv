@@ -1,5 +1,3 @@
-import PurpleSquare from "../../svg/purple-square-svgrepo-com.svg";
-import Square from "../../svg/square-svgrepo-com.svg";
 import SelectCircle from "../../svg/check-circle-svgrepo-com.svg";
 import Circle from "../../svg/check-circle-svgrepo-com (1).svg";
 import style from './Rating.module.css'

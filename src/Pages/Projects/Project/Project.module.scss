@@ -1,0 +1,63 @@
+.project{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    .img{
+        height: 190px;
+        width: 220px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            background-color: black;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+        .button{
+            background-color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            position: relative;
+            z-index: 1;
+            opacity: 0.5;
+            border-radius: 15px;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    .projectDescription{
+        padding: 10px;
+        .title{
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+            line-height: 1.2;
+        }
+        .description{
+            font-weight: 400;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

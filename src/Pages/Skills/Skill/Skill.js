@@ -1,6 +1,4 @@
-import style from './Skill.module.css'
-import Square from '../../../common/svg/square-svgrepo-com.svg'
-import PurpleSquare from '../../../common/svg/purple-square-svgrepo-com.svg'
+import style from './Skill.module.scss'
 import {Rating} from "../../../common/component/Rating/Rating";
 
 export const Skill = (props) => {

@@ -1,4 +1,4 @@
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import {Footer} from "../Pages/Footer/Footer";
 import React from "react";
 import myAvatar from '../common/assets/myAvatar.jpg'
@@ -16,12 +16,10 @@ export const Main = () => {
                 <div className={style.backgroundPhotoBlock}>
                     <img src={background4} alt="background-photo" className={style.backgroundPhoto}/>
                 </div>
-                <div className={style.mainContentBlock}>
-                    <div className={style.photoBlock}>
-                        <img src={myAvatar} alt="avatar" className={style.photo}/>
-                    </div>
-                    <Footer/>
+                <div className={style.photoBlock}>
+                    <img src={myAvatar} alt="avatar" className={style.photo}/>
                 </div>
+                <Footer/>
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-import style from './Nav.module.css'
+import style from './Nav.module.scss'
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faEnvelope, faUser, faArrowTrendUp, faBriefcase} from '@fortawesome/free-solid-svg-icons'

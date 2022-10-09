@@ -1,4 +1,4 @@
-import style from './Skills.module.css'
+import style from './Skills.module.scss'
 import {Skill} from "./Skill/Skill";
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

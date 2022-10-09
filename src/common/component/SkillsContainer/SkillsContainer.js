@@ -1,9 +1,9 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faComputer} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-import style from './skillsContainer.module.css'
+import style from './skillsContainer.module.scss'
 
-export const SkillsContainer = (props) => {
+export const    SkillsContainer = (props) => {
 
     return (
         <div>
@@ -16,7 +16,7 @@ export const SkillsContainer = (props) => {
             <hr/>
             <div className={style.textBLock}>
                 <div className={style.textEducation}>
-                    {props.skills.map((e,i) => (<p key={i}>•	<strong>{e.title}</strong></p>))}
+                    {props.skills.map((e,i) => (<p key={i} className={style.textCoreSkills}>•	{e.title}</p>))}
                 </div>
             </div>
         </div>

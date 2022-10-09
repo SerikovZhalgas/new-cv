@@ -5,7 +5,7 @@ import {Skills} from "./Skills/Skills";
 import {Projects} from "./Projects/Projects";
 import {Contacts} from "./Contacts/Contacts";
 import {AboutMe} from "./AboutMe/AboutMe";
-import styles from './Pages.module.css'
+import styles from './Pages.module.scss'
 
 export const PATH = {
     ABOUT: '/about',

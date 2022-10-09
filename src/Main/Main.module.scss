@@ -1,0 +1,83 @@
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7px;
+
+  .mainBlockContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*    border: 1px white solid;*/
+    border-radius: 30px;
+    background-color: #0C0E16;
+
+    .backgroundPhotoBlock {
+      .backgroundPhoto {
+        width: 400px;
+        height: 300px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        @media screen and (max-width: 1270px) {
+          width: 300px;
+          height: 200px;
+        }
+      }
+
+      @media screen and (max-width: 1270px) {
+        height: 50%;
+      }
+    }
+
+    .photoBlock {
+      position: absolute;
+      width: 140px;
+      height: 140px;
+
+      .photo {
+        width: 100%;
+        height: 100%;
+        border: 2px black solid;
+        border-radius: 60px;
+        @media screen and (max-width: 1270px) {
+          width: 100%;
+          height: 100%;
+          border: 2px black solid;
+          border-radius: 40px;
+        }
+      }
+
+      @media screen and (max-width: 1270px) {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    @media screen and (max-width: 1270px) {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /*    border: 1px white solid;*/
+      border-radius: 30px;
+      background-color: #0C0E16;
+    }
+  }
+
+  @media screen and (max-width: 1270px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+}
