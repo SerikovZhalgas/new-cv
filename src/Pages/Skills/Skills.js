@@ -11,6 +11,7 @@ import ReactLogo from '../../common/svg/react-svgrepo-com.svg'
 import NodeJSLogo from '../../common/svg/node-svgrepo-com.svg'
 import CSSLogo from '../../common/svg/css-svgrepo-com.svg'
 import {SkillsContainer} from "../../common/component/SkillsContainer/SkillsContainer";
+import Zoom from 'react-reveal/Zoom';
 
 const myLibraries = [
     {title: 'Redux/Redux Toolkit'},
@@ -45,27 +46,29 @@ export const Skills = () => {
 
     return (
         <div className={style.mainSkillsBlock}>
-            <h3 className={style.title}>
-                <FontAwesomeIcon icon={faComputer} className='fa-lg'/>
-                <div className={style.titleText}>
-                    My skills
+            <Zoom cascade>
+                <h3 className={style.title}>
+                    <FontAwesomeIcon icon={faComputer} className='fa-lg'/>
+                    <div className={style.titleText}>
+                        My skills
+                    </div>
+                </h3>
+                <hr/>
+                <div className={style.skillsBlock}>
+                    <div className={style.skills}>
+                        <Skill icon={ReactLogo} title={'React'} rating={5}/>
+                        <Skill icon={JSLogo} title={'JavaScript'} rating={4}/>
+                        <Skill icon={TypeScriptLogo} title={'TypeScript'} rating={4}/>
+                        <Skill icon={NodeJSLogo} title={'Node.js'} rating={3}/>
+                        <Skill icon={GitLogo} title={'Git'} rating={3}/>
+                        <Skill icon={HTMLLogo} title={'HTML'} rating={4}/>
+                        <Skill icon={CSSLogo} title={'CSS'} rating={4}/>
+                    </div>
                 </div>
-            </h3>
-            <hr/>
-            <div className={style.skillsBlock}>
-                <div className={style.skills}>
-                    <Skill icon={ReactLogo} title={'React'} rating={5}/>
-                    <Skill icon={JSLogo} title={'JavaScript'} rating={4}/>
-                    <Skill icon={TypeScriptLogo} title={'TypeScript'} rating={4}/>
-                    <Skill icon={NodeJSLogo} title={'Node.js'} rating={3}/>
-                    <Skill icon={GitLogo} title={'Git'} rating={3}/>
-                    <Skill icon={HTMLLogo} title={'HTML'} rating={4}/>
-                    <Skill icon={CSSLogo} title={'CSS'} rating={4}/>
-                </div>
-            </div>
-            <SkillsContainer skills={myLibraries} title={'React libraries'}/>
-            <SkillsContainer skills={architecturesAndPrinciples} title={'Programming Architectures and Principles'}/>
-            <SkillsContainer skills={baseKnowledge} title={'Base knowledge'}/>
+                <SkillsContainer skills={myLibraries} title={'React libraries'}/>
+                <SkillsContainer skills={architecturesAndPrinciples} title={'Programming Architectures and Principles'}/>
+                <SkillsContainer skills={baseKnowledge} title={'Base knowledge'}/>
+            </Zoom>
         </div>
     )
 }

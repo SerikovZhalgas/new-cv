@@ -3,6 +3,7 @@ import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
 import {Pages} from "./Pages/Pages";
 import {HashRouter} from "react-router-dom";
+import canvas from './tetris-canvas/tetris'
 
 export const App = () => {
 

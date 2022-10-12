@@ -2,7 +2,9 @@ body {
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #131722;
+  /*background-color: #131722;*/
+  background: #141414;
+  overflow:auto;
 }
 
 code {
