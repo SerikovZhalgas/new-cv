@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-cv/static/css/main.aa665b75.css",
-    "main.js": "/new-cv/static/js/main.50f1b0f8.js",
+    "main.css": "/new-cv/static/css/main.af41ff80.css",
+    "main.js": "/new-cv/static/js/main.0e31fcc8.js",
     "static/js/787.a71561b8.chunk.js": "/new-cv/static/js/787.a71561b8.chunk.js",
     "static/media/todolist.jpg": "/new-cv/static/media/todolist.216cf72906717110dbe7.jpg",
     "static/media/nba.jpg": "/new-cv/static/media/nba.fbdcc23cdc27106dbe16.jpg",
@@ -23,12 +23,12 @@
     "static/media/js-svgrepo-com.svg": "/new-cv/static/media/js-svgrepo-com.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/check-circle-svgrepo-com.svg": "/new-cv/static/media/check-circle-svgrepo-com.ccf2dc3336db5783faf7f9a61f0a14b9.svg",
     "static/media/check-circle-svgrepo-com (1).svg": "/new-cv/static/media/check-circle-svgrepo-com (1).29cd75e077719145b1e200ef267e5102.svg",
-    "main.aa665b75.css.map": "/new-cv/static/css/main.aa665b75.css.map",
-    "main.50f1b0f8.js.map": "/new-cv/static/js/main.50f1b0f8.js.map",
+    "main.af41ff80.css.map": "/new-cv/static/css/main.af41ff80.css.map",
+    "main.0e31fcc8.js.map": "/new-cv/static/js/main.0e31fcc8.js.map",
     "787.a71561b8.chunk.js.map": "/new-cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa665b75.css",
-    "static/js/main.50f1b0f8.js"
+    "static/css/main.af41ff80.css",
+    "static/js/main.0e31fcc8.js"
   ]
 }
