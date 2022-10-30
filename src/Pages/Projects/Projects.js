@@ -34,13 +34,30 @@ export const Projects = () => {
                 </h3>
                 <hr/>
                 <div className={style.projects}>
-                    <Project style={social} title={'Social network'}
-                             description={'New smart of social network projects'}/>
-                    <Project style={todolist} title={'Todolist'}
-                             description={'Todolist - main project for create CRUD architecture'}/>
-                    <Project style={futureProj} title={'Friday project'} description={'Someone project in the future'}/>
-                    <Project style={nbaStat} title={'NBA Statistics'}
-                             description={'More statistics about professional basketball game from NBA'}/>
+                    <Project
+                        style={social}
+                        title={'Social network'}
+                        description={'In progress... Design update coming soon!'}
+                        link={'https://serikovzhalgas.github.io/social-network/#/social-network/profile'}
+                    />
+                    <Project
+                        style={futureProj}
+                        title={'Education'}
+                        description={'Create or learn with cards in the packs.'}
+                        link={'https://friday-project.vercel.app/#/'}
+                    />
+                    <Project
+                        style={todolist}
+                        title={'To-do list'}
+                        description={'Todolist - project for create CRUD architecture.'}
+                        link={''}
+                    />
+                    {/*<Project
+                        style={nbaStat}
+                        title={'NBA Statistics'}
+                        description={'More statistics about professional basketball game from NBA'}
+                        link={}
+                    />*/}
                 </div>
             </Zoom>
         </div>

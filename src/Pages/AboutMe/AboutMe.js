@@ -30,11 +30,14 @@ export const AboutMe = () => {
                     </h2>
                     <hr/>
                     <div className={style.textBLock}>
-                        <p>I am charitable, politeness and answerable person. Complete tasks within timeframes. Quick
-                            understand into project details.</p>
+                        <p>
+                            My one of strong qualities is adaptable. In my work experiences I was very curious about the work process. And the other qualities is friendly and modesty. In my opinion, it's two qualities are very important because I appreciate the feelings of my companion.
+                        </p>
+                        <p>
+                            In free time I practice new features, learn programming architectures, read books of programming language.
+                        </p>
                         <p>My goal right now is to find a position at a company where I can grow and take on new
-                            challenges
-                            over time. My short term plans:</p>
+                            challenges over time. My short term plans:</p>
                         <ul>
                             <li>
                                 Learn a new set of skills.

@@ -7,7 +7,7 @@ export const Project = (props) => {
         <div className={style.project}>
             <Zoom cascade>
                 <div className={style.img} style={props.style}>
-                    <a href="src/Pages/Projects/Project/Project" className={style.button}>Посмотреть</a>
+                    <a href={props.link} className={style.button}>Посмотреть</a>
                 </div>
                 <div className={style.projectDescription}>
                     <h3 className={style.title}>
