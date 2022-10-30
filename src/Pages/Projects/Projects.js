@@ -50,7 +50,7 @@ export const Projects = () => {
                         style={todolist}
                         title={'To-do list'}
                         description={'Todolist - project for create CRUD architecture.'}
-                        link={''}
+                        link={'https://serikovzhalgas.github.io/Todolist-final/'}
                     />
                     {/*<Project
                         style={nbaStat}
