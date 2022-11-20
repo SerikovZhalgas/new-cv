@@ -35,22 +35,22 @@ export const Projects = () => {
                 <hr/>
                 <div className={style.projects}>
                     <Project
-                        style={social}
-                        title={'Social network'}
-                        description={'In progress... Design update coming soon!'}
-                        link={'https://serikovzhalgas.github.io/social-network/#/social-network/profile'}
-                    />
-                    <Project
                         style={futureProj}
                         title={'Education'}
-                        description={'Create or learn with cards in the packs.'}
+                        description={'Create or learn with cards in the packs. Project create in a team of 3 person. Please use VPN, before passing. (Redux, TypeScript, RestAPI)'}
                         link={'https://friday-project.vercel.app/#/'}
                     />
                     <Project
                         style={todolist}
                         title={'To-do list'}
-                        description={'Todolist - project for create CRUD architecture.'}
+                        description={'Todolist - project for create CRUD architecture. (Redux, TypeScript, RestAPI, unit-tests, Storybook) Also I have ReduxTLK version of project too.'}
                         link={'https://serikovzhalgas.github.io/Todolist-final/'}
+                    />
+                    <Project
+                        style={social}
+                        title={'Social network'}
+                        description={'In progress... Design update coming soon! (Redux, TypeScript, RestAPI, func/class components, hooks)'}
+                        link={'https://serikovzhalgas.github.io/social-network/#/social-network/profile'}
                     />
                     {/*<Project
                         style={nbaStat}
