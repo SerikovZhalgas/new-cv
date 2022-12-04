@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-cv/static/css/main.af41ff80.css",
-    "main.js": "/new-cv/static/js/main.bdcbaa12.js",
+    "main.js": "/new-cv/static/js/main.ce3e063d.js",
     "static/js/787.a71561b8.chunk.js": "/new-cv/static/js/787.a71561b8.chunk.js",
     "static/media/todolist.jpg": "/new-cv/static/media/todolist.216cf72906717110dbe7.jpg",
     "static/media/nba.jpg": "/new-cv/static/media/nba.fbdcc23cdc27106dbe16.jpg",
@@ -10,9 +10,10 @@
     "static/media/background1.png": "/new-cv/static/media/background1.2d1ed8422929a5fffbe8.png",
     "static/media/background5.jpg": "/new-cv/static/media/background5.33cdb73e5ba551d2f11f.jpg",
     "static/media/background4.jpg": "/new-cv/static/media/background4.407b708331baf549ef25.jpg",
-    "static/media/future-project.jpg": "/new-cv/static/media/future-project.e0146455e09413026472.jpg",
     "static/media/background3.jpg": "/new-cv/static/media/background3.d0306990cd278ad912e5.jpg",
+    "static/media/education-img.jpg": "/new-cv/static/media/education-img.0d6447347c7531dd3ebc.jpg",
     "static/media/myAvatar.jpg": "/new-cv/static/media/myAvatar.b388712c56ba6674b500.jpg",
+    "static/media/firebase_logo_shot.png": "/new-cv/static/media/firebase_logo_shot.a36af605186b088c5346.png",
     "static/media/react-svgrepo-com.svg": "/new-cv/static/media/react-svgrepo-com.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/git-svgrepo-com.svg": "/new-cv/static/media/git-svgrepo-com.4c11935509913cd4e63313655417afc2.svg",
     "static/media/css-svgrepo-com.svg": "/new-cv/static/media/css-svgrepo-com.dcf6b281b7aa0c1723abecb20ff3d63b.svg",
@@ -24,11 +25,11 @@
     "static/media/check-circle-svgrepo-com.svg": "/new-cv/static/media/check-circle-svgrepo-com.ccf2dc3336db5783faf7f9a61f0a14b9.svg",
     "static/media/check-circle-svgrepo-com (1).svg": "/new-cv/static/media/check-circle-svgrepo-com (1).29cd75e077719145b1e200ef267e5102.svg",
     "main.af41ff80.css.map": "/new-cv/static/css/main.af41ff80.css.map",
-    "main.bdcbaa12.js.map": "/new-cv/static/js/main.bdcbaa12.js.map",
+    "main.ce3e063d.js.map": "/new-cv/static/js/main.ce3e063d.js.map",
     "787.a71561b8.chunk.js.map": "/new-cv/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af41ff80.css",
-    "static/js/main.bdcbaa12.js"
+    "static/js/main.ce3e063d.js"
   ]
 }
