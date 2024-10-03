@@ -12,25 +12,25 @@ export const Nav = () => {
                 <NavLink to={'/about'} className={`${style.item} ${style.up}`}>
                     <div className={style.text}>
                         <FontAwesomeIcon icon={faUser} className="fa-lg"/>
-                        <div>ABOUT</div>
+                        <div>Обо мне</div>
                     </div>
                 </NavLink>
                 <NavLink to={'/skills'} className={`${style.item} ${style.center}`}>
                     <div className={style.text}>
                         <FontAwesomeIcon icon={faArrowTrendUp} className="fa-lg"/>
-                        SKILLS
+                        Навыки
                     </div>
                 </NavLink>
                 <NavLink to={'/projects'} className={`${style.item} ${style.center}`}>
                     <div className={style.text}>
                         <FontAwesomeIcon icon={faBriefcase} className="fa-lg"/>
-                        PROJECTS
+                        Проекты
                     </div>
                 </NavLink>
                 <NavLink to={'/contacts'} className={`${style.item} ${style.down}`}>
                     <div className={style.text}>
                         <FontAwesomeIcon icon={faEnvelope} className="fa-lg"/>
-                        CONTACT
+                        Контакты
                     </div>
                 </NavLink>
             </Zoom>
