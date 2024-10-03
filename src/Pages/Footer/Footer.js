@@ -19,17 +19,24 @@ export const Footer = () => {
                     />
                 </div>
                 <div className={style.socialNetContainer}>
-                    <a href="https://www.instagram.com/jalgas.97/">
+                    <a href="https://www.instagram.com/jalgas.97/"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram} className="fa-inverse fa-lg"/>
                     </a>
-                    <a href="www.linkedin.com/in/ZhalgasSerikov
-">
+                    <a href="https://www.linkedin.com/in/zhalgasserikov/"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className="fa-inverse fa-lg"/>
                     </a>
-                    <a href="https://vk.com/idzhalgasserikov">
+                    <a href="https://vk.com/idzhalgasserikov"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faVk} className="fa-inverse fa-lg"/>
                     </a>
-                    <a href="https://github.com/SerikovZhalgas">
+                    <a href="https://github.com/SerikovZhalgas"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="fa-inverse fa-lg"/>
                     </a>
                 </div>

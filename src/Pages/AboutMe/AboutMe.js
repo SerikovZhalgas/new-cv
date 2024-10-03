@@ -6,14 +6,18 @@ import {ListYearText} from "../../common/component/ListYearText/ListYearText";
 import Zoom from 'react-reveal/Zoom';
 
 const education = [
-    {year: '2015-2019', text: 'S.Seifullin Kazakh Agro Technical University'},
+    {year: '2015-2019', text: 'Казахский Агротехнический университет им. С.Сейфуллина'},
     {year: '2022', text: 'It-Incubator'}
 ]
 
 const experience = [
-    {year: '2019-2022', text: 'KazImpex company as Information system engineer'},
-    {year: '2022', text: 'Izipaq company as BPM Developer'},
-    {year: '2022', text: 'Freelance as React Front-End Developer'}
+    {year: '2019.10-2022.05', text: 'Инженер информационных систем спорткомлекса Жекпе-Жек в ТОО KazImpex'},
+    {year: '2022.03-2022.12', text: 'Frontend разработчик в компании ТОО Обряд (частичная занятость, удаленная работа)'},
+    {year: '2022.05-2023.09', text: 'BPM разработчик в компании ТОО Izipaq'},
+    {year: '2023.01-2023.12', text: 'Frontend разработчик в компании ТОО Feligram (удаленная работа)'},
+    {year: '2023.10-2023.12', text: 'Frontend разработчик в компании ТОО DigitalPax'},
+    {year: '2024.01-2024.06', text: 'Frontend разработчик в компании ТОО Click Intellect'},
+    {year: '2024.01-now', text: 'Frontend разработчик в компании ТОО Data40 (удаленная работа)'},
 ]
 
 export const AboutMe = () => {
@@ -25,49 +29,25 @@ export const AboutMe = () => {
                     <h2 className={style.title}>
                         <FontAwesomeIcon icon={faPerson} className='fa-lg'/>
                         <div className={style.titleText}>
-                            About Me
+                            Обо мне
                         </div>
                     </h2>
                     <hr/>
                     <div className={style.textBLock}>
                         <p>
-                            My one of strong qualities is adaptable. In my work experiences I was very curious about the work process. And the other qualities is friendly and modesty. In my opinion, it's two qualities are very important because I appreciate the feelings of my companion.
+                            О себе - ежедневно обучаюсь, пишу чистый код, рефакторю, переиспользую код. Ответственно подхожу к работе, самоорганизован. Из хобби - обожаю баскетбол, настольный теннис.
                         </p>
-                        <p>
-                            In free time I practice new features, learn programming architectures, read books of programming language.
-                        </p>
-                        <p>My goal right now is to find a position at a company where I can grow and take on new
-                            challenges over time. My short term plans:</p>
-                        <ul>
-                            <li>
-                                Learn a new set of skills.
-                            </li>
-                            <li>
-                                Gain experience in team-building
-                            </li>
-                            <li>
-                                Advance into a supervisory role
-                            </li>
-                            <li>
-                                Increase your performance standard
-                            </li>
-                        </ul>
                     </div>
                     <div className={style.textBLock}>
                         <div className={style.textAboutMe}>
-                       <span>
-                            <p><strong>AGE</strong>: 25</p>
-                           <p><strong>FREELANCE</strong>: Available</p>
-                        </span>
-                            <span>
-                            <p><strong>RESIDENCE</strong>: Kazakhstan</p>
-                            <p><strong>ADDRESS</strong>: Nur-sultan, Kazakhstan</p>
-                        </span>
+                            <p><strong>Возраст</strong>: 27</p>
+                            <p><strong>ГРАЖДАНСТВО</strong>: Казахстан</p>
+                            <p><strong>АДРЕС</strong>: Астана</p>
                         </div>
                     </div>
                 </div>
-                <ListYearText title={'Education'} list={education}/>
-                <ListYearText title={'Experience'} list={experience}/>
+                <ListYearText title={'Образование'} list={education}/>
+                <ListYearText title={'Опыт'} list={experience}/>
             </Zoom>
         </div>
     );

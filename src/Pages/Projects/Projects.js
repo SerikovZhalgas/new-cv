@@ -33,33 +33,39 @@ export const Projects = () => {
                 <h3 className={style.title}>
                     <FontAwesomeIcon icon={faListCheck} className='fa-lg'/>
                     <div className={style.titleText}>
-                        My projects
+                        Мои проекты
                     </div>
                 </h3>
                 <hr/>
                 <div className={style.projects}>
-                    <Project
-                        style={educationProj}
-                        title={'Education'}
-                        description={'Create or learn with cards in the packs. Project create in a team of 3 person. Please use VPN, before passing. (Redux, TypeScript, RestAPI)'}
-                        link={'https://friday-project.vercel.app/#/'}
-                    />
+                    {/*<Project*/}
+                    {/*    style={educationProj}*/}
+                    {/*    title={'Education'}*/}
+                    {/*    description={'Create or learn with cards in the packs. Project create in a team of 3 person. Please use VPN, before passing. (Redux, TypeScript, RestAPI)'}*/}
+                    {/*    link={'https://friday-project.vercel.app/#/'}*/}
+                    {/*/>*/}
+                    {/*<Project*/}
+                    {/*    style={todolist}*/}
+                    {/*    title={'To-do list'}*/}
+                    {/*    description={'Todolist - project for create CRUD architecture. (Redux, TypeScript, RestAPI, unit-tests, Storybook) Also I have ReduxTLK version of project too.'}*/}
+                    {/*    link={'https://serikovzhalgas.github.io/Todolist-final/'}*/}
+                    {/*/>*/}
                     <Project
                         style={todolist}
-                        title={'To-do list'}
-                        description={'Todolist - project for create CRUD architecture. (Redux, TypeScript, RestAPI, unit-tests, Storybook) Also I have ReduxTLK version of project too.'}
-                        link={'https://serikovzhalgas.github.io/Todolist-final/'}
+                        title={'Social media'}
+                        description={'React, ReduxTLK, RTK Query, FSD, Storybook, Jest, Webpack/Vite'}
+                        link={'https://zhalgasserikov.netlify.app/'}
                     />
                     <Project
                         style={firebaseProj}
                         title={'To-do list'}
-                        description={'Todolist project also, but based on firebase platform connection. (JavaScript, FireBase: Authentication, Firestore Database, Storage)'}
+                        description={'JavaScript, FireBase: Authentication, Firestore Database'}
                         link={'https://serikovzhalgas.github.io/todolist-on-firebase/'}
                     />
                     <Project
                         style={social}
-                        title={'Social network'}
-                        description={'In progress... Design update coming soon! (Redux, TypeScript, RestAPI, func/class components, hooks)'}
+                        title={'Social media'}
+                        description={'React, Redux, TypeScript'}
                         link={'https://serikovzhalgas.github.io/social-network/#/social-network/profile'}
                     />
                     {/*<Project

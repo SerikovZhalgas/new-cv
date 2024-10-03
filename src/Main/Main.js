@@ -2,11 +2,7 @@ import style from './Main.module.scss'
 import {Footer} from "../Pages/Footer/Footer";
 import React from "react";
 import myAvatar from '../common/assets/myAvatar.jpg'
-import background1 from '../common/assets/background/background1.png'
-import background2 from '../common/assets/background/background2.jpg'
-import background3 from '../common/assets/background/background3.jpg'
 import background4 from '../common/assets/background/background4.jpg'
-import background5 from '../common/assets/background/background5.jpg'
 import Zoom from 'react-reveal/Zoom';
 
 export const Main = () => {
